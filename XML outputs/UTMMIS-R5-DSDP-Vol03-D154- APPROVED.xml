@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uttmisDoc>
+	<useCase>
+		<useCaseName id="Use Case – R5-PRV-UC142-Provider Portal">Use Case – R5-PRV-UC142-Provider Portal		</useCaseName>
+		<actor id="Use Case – R5-PRV-UC142-Provider Portal">Provider</actor>
+		<triggers id="Use Case – R5-PRV-UC142-Provider Portal">User needs to change password or maintain usersUser has a new Provider to enrollUser has an existing Provider to modify or request to DisenrollUser has Claims to manageUser has Prior Authorizations to manageUse has inquiries for a MemberUser has HIPAA Transactions to manageUser wishes to navigate to the Medicaid Website for informationUser has Grievance/Complaint and/or Appeal/Hearing to add or updateUser has access to complete tasks for Care Plans and Case Management</triggers>
+		<preConditons id="Use Case – R5-PRV-UC142-Provider Portal">Provider has received log in credentials for the Provider Portal AND has staff that have been authorized access through “User Maintenance.”</preConditons>
+		<postConditons id="Use Case – R5-PRV-UC142-Provider Portal">User needs to change password or maintain usersUser has a new Provider to enrollUser has an existing Provider to modify or request to DisenrollUser has Claims to manageUser has Prior Authorizations to manageUse has inquiries for a MemberUser has HIPAA Transactions to manageUser wishes to navigate to the Medicaid Website for informationUser has Grievance/Complaint and/or Appeal/Hearing to add or updateUser has access to complete tasks for Care Plans and Case Management</postConditons>
+		<contstraints id="Use Case – R5-PRV-UC142-Provider Portal">User needs to change password or maintain usersUser has a new Provider to enrollUser has an existing Provider to modify or request to DisenrollUser has Claims to manageUser has Prior Authorizations to manageUse has inquiries for a MemberUser has HIPAA Transactions to manageUser wishes to navigate to the Medicaid Website for informationUser has Grievance/Complaint and/or Appeal/Hearing to add or updateUser has access to complete tasks for Care Plans and Case Management</contstraints>
+		<otherUseCase id="Use Case – R5-PRV-UC142-Provider Portal">
+			<otherUseCaseheaderRow>
+				<otherUseCaseheader0>Use Case Number/Name</otherUseCaseheader0>
+				<otherUseCaseheader1>DSD where this Use Case is Included</otherUseCaseheader1>
+				<otherUseCaseheader2>Purpose of Including the Use Case</otherUseCaseheader2>
+			</otherUseCaseheaderRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R3-ARCH-UC225-Add Provider</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-ARCH-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R3-ARCH-UC227-Modify User</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-ARCH-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R3-ARCH-UC229-Provider Login</otherUseCaseCell0>
+				<otherUseCaseCell1>R3-ARCH-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R3-ARCH-UC275-Access MyInbox</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-ARCH-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-ARCH-UC600 - Upload File Via Web</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-ARCH-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-ARCH-UC603- Retrieve Acknowledgement / Response File- Submitter</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-ARCH-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-ARCH-UC678-My Interactions</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-ARCH-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-ARCH-UC679-Online Service Request Number</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-ARCH-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-ARCH-UC680-Chat</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-ARCH-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-MBR-UC037-View 834</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-MBR-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-MBR-UC054-View MCO Payments</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-MBR-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-MBR-UC085-Provider View-Member and Eligibility Check Online-Online Eligibility Inquiry</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-MBR-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-MBR-UC110-Provider Portal MCO Restriction Information</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-MBR-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-MBR-UC116-Provider Portal Risk Assessment</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-MBR-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-MBR-UC152-Provider Portal Education History</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-MBR-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-MBR-UC218- TPL Lead</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-MBR-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-MBR-UC246-Plan of Care List</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-MBR-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-MBR-UC 251 - My Activities</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-MBR-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-CLM-UC019-Submit Professional Claims</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-CLM-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-CLM-UC020-Submit Institutional Claims</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-CLM-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-CLM-UC021-Submit Dental Claims</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-CLM-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-CLM-UC022-Submit Claim Attachment – Provider</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-CLM-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-CLM-UC023-Resubmit Denied or Voided Claim – Provider</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-CLM-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-CLM-UC024-Void or Adjust-Paid Claim- Provider</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-CLM-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-CLM-UC025-Claim Status Inquiry-Provider</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-CLM-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-CLM-UC061-View or Download RA and ETRR</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-CLM-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-UC001-Provider Complaints/Grievances</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-CM-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-UC002-Provider Appeals/Hearings</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-CM-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R5-UC003-Provider View or Update Submitted Appeals/Grievances</otherUseCaseCell0>
+				<otherUseCaseCell1>R5-CM-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R3-PRV-UC101-Basic Information</otherUseCaseCell0>
+				<otherUseCaseCell1>R3-PRV-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R3-PRV-UC114-Track Application</otherUseCaseCell0>
+				<otherUseCaseCell1>R3-PRV-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>R3-PRV-UC116-Modification Main Page</otherUseCaseCell0>
+				<otherUseCaseCell1>R3-PRV-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>2.3.16 Provider and State User Login</otherUseCaseCell0>
+				<otherUseCaseCell1>R3-PRV-DSD</otherUseCaseCell1>
+				<otherUseCaseCell2>Hyperlinks navigation</otherUseCaseCell2>
+			</otherUseCaseRow>
+		</otherUseCase>
+		<step id="Use Case – R5-PRV-UC142-Provider Portal" type="normal">
+			<stepName>Step 1: Provider Portal [pgProviderPortal(Provider)] </stepName>
+			<navigation>Provider Portal Landing Page</navigation>
+			<flow id="Use Case – R5-PRV-UC142-Provider Portal" stepId="Step 1: Provider Portal [pgProviderPortal(Provider)] ">
+					<flowHeaderRow>
+						<flowHeader0>Flow</flowHeader0>
+						<flowHeader1>Actor Does</flowHeader1>
+						<flowHeader2>Field Rules</flowHeader2>
+						<flowHeader3>System Does</flowHeader3>
+					</flowHeaderRow>
+					<flowRow>
+						<flowCell0 id="Flow">1</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Claims Inquiry]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-CLM-UC025-Claim Status Inquiry-Provider]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">2</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Claim Adjustment/Void]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-CLM-UC024-Void or Adjust-Paid Claim]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">3</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl On-line Claims Entry]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-CLM-UC019-Submit Professional Claim Online– Provider], [uc R5-CLM-UC020-Submit Institutional Claim Online–Provider], [uc R5-CLM-UC021-Submit Dental Claim Online–Provider], [uc R5-CLM-UC022-Submit Claim Attachment–Provider]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">4</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl On-line Batch Claims Submission (837)]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-ARCH-UC600 - Upload File Via Web]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">5</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Resubmit Denied/Voided Claim]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-CLM-UC023-Resubmit Denied or Voided Claim – Provider]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">6</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl On-line Prior Authorization Submission]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-MBR-UC174-Provider Submits Authorization Request]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">7</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Prior Authorization Inquiry]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-MBR-UC174-Provider Submits Authorization Request]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">8</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Submit HIPAA Batch Transactions]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-ARCH-UC600 - Upload File Via Web]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">9</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Retrieve HIPAA Batch Responses]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-ARCH-UC603- Retrieve Acknowledgement / Response File- Submitter]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">10</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl View Payment]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-CLM-UC061-View or Download RA and ETRR]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">11</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl View Capitation Payment]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-MBR-UC054-View MCO Payments]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">12</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Searchable Provider Directory]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Displays https://medicaid.utah.gov/health-care-providers</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">13</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Medicaid Policy Information]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Displays https://medicaid.utah.gov/policy-manuals</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">14</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Medicaid Eligibility Manual]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Displays https://medicaid.utah.gov/eligibility</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">15</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl EHR Incentive Payment Program]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc 2.3.16 Provider and State User Login]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">16</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Files and Forms]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Displays https://medicaid.utah.gov/forms-providers</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">17</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Fee Schedules]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Displays http://health.utah.gov/medicaid/stplan/lookup/CoverageLookup.php</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">18</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Provider Training]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Displays https://medicaid.utah.gov/provider-training-0</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">19</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Provider Manuals]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Displays https://medicaid.utah.gov/utah-medicaid-official-publications</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">20</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl FAQ]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Displays [pgPrvdrFAQ(Provider)]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">21</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [btn Manage Notifications]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R3-ARCH-UC275-Access MyInbox]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">22</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Notification Messages]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R3-ARCH-UC275-Access MyInbox]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">23</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Activity Description]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-ARCH-UC678-My Interactions</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">24</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Change Password]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R3-ARCH-UC229-Provider Login]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">25</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Maintain Users]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R3-ARCH-UC225-Add Provider] and [uc R3-ARCH-UC227-Modify User]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">26</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Manage Provider Information]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R3-PRV-UC116-Modification Main Page</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">27</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Initiate New Enrollment]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R3-PRV-UC101-Basic Information]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">28</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Track Application]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R3-PRV-UC114-Track Application]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">29</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Disenrollment Request]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Displays [pgPrvdrContact(Admin)]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">30</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Case Activities]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-MBR-UC 251 - My Activities]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">31</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Submit a Grievance/Complaint]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-UC001-Provider Complaints/Grievances]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">32</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Submit an Appeal/Hearing]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-UC002-Provider Appeals/Hearings]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">33</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl View/Update Submitted Grievances and Appeals]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invoke [uc R5-UC003-Provider View or Update Submitted Appeals/Grievances]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">34</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Eligibility Verification]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-MBR-UC085-Provider View-Member and Eligibility Check Online]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">35</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Member Education]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-MBR-UC152-Provider Portal Education History]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">36</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Provider TPL Referral Form]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-MBR-UC218-TPL Lead]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">37</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Member Health Risk Assessment]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-MBR-UC116-Provider Portal Risk Assessment]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">38</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Care Plans]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-MBR-UC 246 - Plan of Care List]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">39</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl View Enrollment Roster</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-MBR-UC037-View 834]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">40</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl View ETRR]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-CLM-UC061-View or Download RA and ETRR]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">41</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl MCO Restriction]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-MBR-UC110-Provider Portal MCO Restriction Information]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">42</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Contact Us]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Displays [pgPrvdrContact(Admin)]</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">43</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [hl Live Chat]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes [uc R5-ARCH-UC680-Chat]</flowCell3>
+					</flowRow>
+			</flow>
+			<businessAreaRules id="Use Case – R5-PRV-UC142-Provider Portal" stepName="Step 1: Provider Portal [pgProviderPortal(Provider)] ">
+					<businessHeaderRow>
+						<businessHeader0>Business Rules</businessHeader0>
+						<businessHeader1>Business Error Displayed</businessHeader1>
+						<businessHeader2>Applied At</businessHeader2>
+					</businessHeaderRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br PRV-582-Portal Access] Provider Potral Profiles will be as follows (Sections not listed for the Profiles below will not be shown on the screen and will only present sections as stated)1)Billing Provider/Administrator-All access excluding MCO Management. *Claims Submitter-claims, PA, Member, Medicaid Info, Payment Management *Office Manager-All access exluding MCO Management *Front Office Staff-Member, My Profile (excluding User Maint and Banking Information), PA, Medicaid Info *Credentialing Specialist - My Profile (excluding User Maint), Medicaid Info 2)MCO- MCO Representative Profile-All access 3)Group Providers- Group Administrator-All access excluding MCO Management*Group Claims Submitter-claims, PA, Member, Medicaid Info, Payment Management Group Office Manager-All access excluding MCO Management*Group Front Office Staff-Member, My Profile (excluding User Maint and Banking Information), PA, Medicaid Info *Group Credentialing Specialist - My Profile (excluding User Maint), Medicaid Info 4)Profile for Servicing Providers of a Group - This is for Provider Level Access at the NPI level *Group Servicing Provider Claims Submitter-claims, PA, Member, Medicaid Info, Payment Management*Group Servicing Provider Office Manager-All access excluding MCO Management*Group Servicing Provider Front Office Staff-Member, My Profile (excluding User Maint and Banking Information), PA, Medicaid Info. See {Provider-Exhibit-ProviderPortalLinksETmapping}.1)Billing Provider/Administrator-All access excluding MCO Management. *Claims Submitter-claims, PA, Member, Medicaid Info, Payment Management *Office Manager-All access exluding MCO Management *Front Office Staff-Member, My Profile (excluding User Maint and Banking Information), PA, Medicaid Info *Credentialing Specialist - My Profile (excluding User Maint), Medicaid Info 2)MCO- MCO Representative Profile-All access 3)Group Providers- Group Administrator-All access excluding MCO Management*Group Claims Submitter-claims, PA, Member, Medicaid Info, Payment Management Group Office Manager-All access excluding MCO Management*Group Front Office Staff-Member, My Profile (excluding User Maint and Banking Information), PA, Medicaid Info *Group Credentialing Specialist - My Profile (excluding User Maint), Medicaid Info 4)Profile for Servicing Providers of a Group - This is for Provider Level Access at the NPI level *Group Servicing Provider Claims Submitter-claims, PA, Member, Medicaid Info, Payment Management*Group Servicing Provider Office Manager-All access excluding MCO Management*Group Servicing Provider Front Office Staff-Member, My Profile (excluding User Maint and Banking Information), PA, Medicaid Info. See {Provider-Exhibit-ProviderPortalLinksETmapping}.</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">n/a</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">n/a</businessAreaCell2>
+					</businessAreaRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br PRV-622-External Links] Any External Links should open a new window.</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">n/a</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">n/a</businessAreaCell2>
+					</businessAreaRow>
+			</businessAreaRules>
+			<dataAttributes id="Use Case – R5-PRV-UC142-Provider Portal" stepName="Step 1: Provider Portal [pgProviderPortal(Provider)] ">
+					<dataAttributesHeaderRow>
+						<dataAttributesHeader0>Field Name</dataAttributesHeader0>
+						<dataAttributesHeader1>Required (R, CR, O, n/a)</dataAttributesHeader1>
+						<dataAttributesHeader2>Field Type</dataAttributesHeader2>
+						<dataAttributesHeader3>Field Value</dataAttributesHeader3>
+						<dataAttributesHeader4>Page Control Name</dataAttributesHeader4>
+						<dataAttributesHeader5>Table Name</dataAttributesHeader5>
+						<dataAttributesHeader6>Column Name</dataAttributesHeader6>
+						<dataAttributesHeader7>Data Type</dataAttributesHeader7>
+						<dataAttributesHeader8>Default Value</dataAttributesHeader8>
+					</dataAttributesHeaderRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Provider Portal</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">My Services</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Welcome to Provider Portal</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Claims Management</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Claims Management</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Expand/Collapse</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">Expand</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Claim/Encounter Inquiry</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Claim Adjustment/Void</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">On-line Claims Entry</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">On-line Batch Claims Submission (837)</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Resubmit Denied/Voided Claim</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Service Authorization Management</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Service Authorization Management</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Expand/ Collapse</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">Expand</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">On-line Prior Authorization Submission</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Prior Authorization Inquiry</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">HIPAA Transaction Management</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">HIPAA Transaction Management</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Expand/Collapse</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">Expand</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Submit HIPAA Batch Transactions</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Retrieve HIPAA Batch Responses</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Payment Management</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Payment Management</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Expand/Collapse</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">Expand</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">View Payment</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">View Capitation Payment</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Medicaid Information</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Searchable Provider Directory</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Medicaid Policy Information</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Medicaid Eligibility Manual</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">EHR Incentive Payment Program</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Files & Forms</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Fee Schedules</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Provider Training</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Provider Manuals</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">FAQ</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">My Messages</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Manage Notifications</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Button</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">ManageAlerts</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Check Box</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Column</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">nchk:Grid1_main_checkbox</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">Blank</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Notification Type</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Column</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">NotificationMessage</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Column/Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Notification Date</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Column</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Due Date</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Column</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Read</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Column</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Delete</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Button</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">Grid1Delete</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">My Recent Interactions</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Date</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Column</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Activity Type</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Column</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Activity Source</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Column</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Activity Description</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Column</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Activity Status</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Column</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Estimated/Completion Date</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Column</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">My Profile</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Change Password</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Maintain Users</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Manage Provider Information</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Initiate New Enrollment</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Track Application</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Disenrollment Request</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Case Activities</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Submit a Grievance/Complaint</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Submit an Appeal/Hearing</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">View/Update Submitted Grievances and Appeals</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Member Information</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Eligibility Verification</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Member Education</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Provider TPL Referral Form</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Member Health Risk Assessment</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Care Plans</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">MCO Management</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">View Enrollment Roster</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">View ETRR</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">MCO Restriction</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">ENRLMNT_TYPE_CID</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">NUMBER(2)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Contact Us</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Provider Relations Department: 1-800-662-9651</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">EHR Program: 801-538-6929</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Contact Us</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">ENRLMNT_TYPE_CID</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Live Chat</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">ENRLMNT_TYPE_CID</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Live Chat Icon</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Icon</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">ENRLMNT_TYPE_CID</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Note: The Live Chat is only for technical issues.</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">PAGE_X_ENROLLMENT_TYPE</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">ENRLMNT_TYPE_CID</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+			</dataAttributes>
+		</step>
+		<step type="alternate">
+			<alternateFlowName>Alternate Flow 1</alternateFlowName>
+			<alternateFlow>
+					<dataAttributesHeaderRow>
+						<dataAttributesHeader0>Flow</dataAttributesHeader0>
+						<dataAttributesHeader1>Actor Does</dataAttributesHeader1>
+						<dataAttributesHeader2>Field Rules</dataAttributesHeader2>
+						<dataAttributesHeader3>System Does</dataAttributesHeader3>
+					</dataAttributesHeaderRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Flow">1</dataAttributesCell0>
+						<dataAttributesCell1 id="Actor Does">Enters text in [fld Your Email Address]</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Rules">R</dataAttributesCell2>
+						<dataAttributesCell3 id="System Does">Displays text entered</dataAttributesCell3>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Flow">2</dataAttributesCell0>
+						<dataAttributesCell1 id="Actor Does">Selects value from [lb Select Topic]</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Rules">R</dataAttributesCell2>
+						<dataAttributesCell3 id="System Does">Displays value selected</dataAttributesCell3>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Flow">3</dataAttributesCell0>
+						<dataAttributesCell1 id="Actor Does">Clicks [btn Submit]</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Rules">n/a</dataAttributesCell2>
+						<dataAttributesCell3 id="System Does">Invokes [uc R5-ARCH-UC679-Online Service Request Number]Use case ends.</dataAttributesCell3>
+					</dataAttributesRow>
+			</alternateFlow>
+			<alternateBusinessFlow>
+					<alternateBusinessAreaFlowHeaderRow>
+						<alternateBusinessAreaFlowHeader0>Business Rules</alternateBusinessAreaFlowHeader0>
+						<alternateBusinessAreaFlowHeader1>Business Error Displayed</alternateBusinessAreaFlowHeader1>
+						<alternateBusinessAreaFlowHeader2>Applied At</alternateBusinessAreaFlowHeader2>
+					</alternateBusinessAreaFlowHeaderRow>
+					<alternateBusinessAreaRow>
+						<alternateBusinessAreaCell0 id="Business Rules">[br PRV-220-Contact Us] [fld Business or Last Name] and [fld First Name] and [fld 7 digit provider ID] in [pgPrvdrContact(Provider)] is auto-populated based on Domain User ID and Password.</alternateBusinessAreaCell0>
+						<alternateBusinessAreaCell1 id="Business Error Displayed">n/a</alternateBusinessAreaCell1>
+						<alternateBusinessAreaCell2 id="Applied At">n/a</alternateBusinessAreaCell2>
+					</alternateBusinessAreaRow>
+					<alternateBusinessAreaRow>
+						<alternateBusinessAreaCell0 id="Business Rules">[br PRV-583-Contact Us R3 rule for R5] Remove rule [br PRV-243-Contact Us R3] when R5 goes live.</alternateBusinessAreaCell0>
+						<alternateBusinessAreaCell1 id="Business Error Displayed">n/a</alternateBusinessAreaCell1>
+						<alternateBusinessAreaCell2 id="Applied At">n/a</alternateBusinessAreaCell2>
+					</alternateBusinessAreaRow>
+			</alternateBusinessFlow>
+			<alternateDataAttributes>
+					<dataAttributesHeaderRow>
+						<dataAttributesHeader0>Field Name</dataAttributesHeader0>
+						<dataAttributesHeader1>Required (R, CR, O, n/a)</dataAttributesHeader1>
+						<dataAttributesHeader2>Field Type</dataAttributesHeader2>
+						<dataAttributesHeader3>Field Value</dataAttributesHeader3>
+						<dataAttributesHeader4>Page Control Name</dataAttributesHeader4>
+						<dataAttributesHeader5>Table Name</dataAttributesHeader5>
+						<dataAttributesHeader6>Column Name</dataAttributesHeader6>
+						<dataAttributesHeader7>Data Type</dataAttributesHeader7>
+						<dataAttributesHeader8>Default Value</dataAttributesHeader8>
+					</dataAttributesHeaderRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Close</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Button</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">pageClose0</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Submit</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Button</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">Add</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Contact Us!</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Contact Us</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Contact Us</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Expand/Collapse</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">Expand</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Information Request Form for Providers</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Your Email Address</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">R</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Text Field</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">rfld_a:EMAIL</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">Blank</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Business or Last Name</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Text Field</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">nfld_a:LAST_NAME</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">System Populated</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">First Name</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Text Field</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">nfld_a:FIRST_NAME</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">System Populated</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">7 digit PRISM ID</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Text Field</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">rfld_a:Zip</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">System Populated</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Select Topic</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">R</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">List Box</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">{See values in Provider-Exhibit-Contact Us-Vol. 3}</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">ncmb_a:TOPIC</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">Blank</dataAttributesCell8>
+					</dataAttributesRow>
+			</alternateDataAttributes>
+		</step>
+		<step type="alternate">
+			<alternateFlowName>Alternate Flow 2</alternateFlowName>
+			<alternateFlow>
+					<dataAttributesHeaderRow>
+						<dataAttributesHeader0>Flow</dataAttributesHeader0>
+						<dataAttributesHeader1>Actor Does</dataAttributesHeader1>
+						<dataAttributesHeader2>Field Rules</dataAttributesHeader2>
+						<dataAttributesHeader3>System Does</dataAttributesHeader3>
+					</dataAttributesHeaderRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Flow">1</dataAttributesCell0>
+						<dataAttributesCell1 id="Actor Does">Clicks [hl https://medicaid.utah.gov/medicaid-z]</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Rules">n/a</dataAttributesCell2>
+						<dataAttributesCell3 id="System Does">Displays [https://medicaid.utah.gov/medicaid-z]</dataAttributesCell3>
+					</dataAttributesRow>
+			</alternateFlow>
+			<alternateBusinessFlow>
+					<alternateBusinessAreaFlowHeaderRow>
+						<alternateBusinessAreaFlowHeader0>Business Rules</alternateBusinessAreaFlowHeader0>
+						<alternateBusinessAreaFlowHeader1>Business Error Displayed</alternateBusinessAreaFlowHeader1>
+						<alternateBusinessAreaFlowHeader2>Applied At</alternateBusinessAreaFlowHeader2>
+					</alternateBusinessAreaFlowHeaderRow>
+					<alternateBusinessAreaRow>
+						<alternateBusinessAreaCell0 id="Business Rules">n/a</alternateBusinessAreaCell0>
+						<alternateBusinessAreaCell1 id="Business Error Displayed">n/a</alternateBusinessAreaCell1>
+						<alternateBusinessAreaCell2 id="Applied At">n/a</alternateBusinessAreaCell2>
+					</alternateBusinessAreaRow>
+			</alternateBusinessFlow>
+			<alternateDataAttributes>
+					<dataAttributesHeaderRow>
+						<dataAttributesHeader0>Field Name</dataAttributesHeader0>
+						<dataAttributesHeader1>Required (R, CR, O, n/a)</dataAttributesHeader1>
+						<dataAttributesHeader2>Field Type</dataAttributesHeader2>
+						<dataAttributesHeader3>Field Value</dataAttributesHeader3>
+						<dataAttributesHeader4>Page Control Name</dataAttributesHeader4>
+						<dataAttributesHeader5>Table Name</dataAttributesHeader5>
+						<dataAttributesHeader6>Column Name</dataAttributesHeader6>
+						<dataAttributesHeader7>Data Type</dataAttributesHeader7>
+						<dataAttributesHeader8>Default Value</dataAttributesHeader8>
+					</dataAttributesHeaderRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Frequently Asked Question</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Frequently Asked Question</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Expand/Collapse</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">Expand</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Question – Would you like more information on Medicaid?</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Static Text</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Answer – Please visit https://medicaid.utah.gov/medicaid-z</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Hyperlink</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Ok</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Button</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">OKButton</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+			</alternateDataAttributes>
+		</step>
+	</useCase>
+</uttmisDoc>

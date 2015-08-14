@@ -1,0 +1,11 @@
+Dump of 5 thread at 2015/08/12 17:28:06 EDT
+
+"main" prio=5 tid=1 RUNNABLE worker
+    native=false, suspended=false, block=0, wait=0
+    lock=null owned by null (-1), cpu=421, user=280
+        Class>>java.lang.Thread	Method Called>>dumpThreads
+        Class>>java.lang.Thread	Method Called>>getAllStackTraces
+        Class>>com.cnsi.parser.Test	Method Called>>dumpTraces
+        Class>>com.cnsi.parser.Test	Method Called>>dumpStacks
+        Class>>com.cnsi.parser.Test	Method Called>>main
+

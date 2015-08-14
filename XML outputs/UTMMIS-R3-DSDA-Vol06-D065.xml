@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uttmisDoc>
+	<useCase>
+		<useCaseName id="Use Case – R3-ARCH-UC334-Image Processing (Fax)">Use Case – R3-ARCH-UC334-Image Processing (Fax)		</useCaseName>
+		<actor id="Use Case – R3-ARCH-UC334-Image Processing (Fax)">System (Kofax®)</actor>
+		<triggers id="Use Case – R3-ARCH-UC334-Image Processing (Fax)">Fax server pushes the fax image file to Watch Folder</triggers>
+		<preConditons id="Use Case – R3-ARCH-UC334-Image Processing (Fax)">Kofax® Batch, document template  and form template exists for the form to be processed</preConditons>
+		<postConditons id="Use Case – R3-ARCH-UC334-Image Processing (Fax)">Fax server pushes the fax image file to Watch Folder</postConditons>
+		<contstraints id="Use Case – R3-ARCH-UC334-Image Processing (Fax)">Fax server pushes the fax image file to Watch Folder</contstraints>
+		<otherUseCase id="Use Case – R3-ARCH-UC334-Image Processing (Fax)">
+			<otherUseCaseheaderRow>
+				<otherUseCaseheader0>Use Case Number/Name</otherUseCaseheader0>
+				<otherUseCaseheader1>DSD where this Use Case is Included</otherUseCaseheader1>
+				<otherUseCaseheader2>Purpose of Including the Use Case</otherUseCaseheader2>
+			</otherUseCaseheaderRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>n/a</otherUseCaseCell0>
+				<otherUseCaseCell1>n/a</otherUseCaseCell1>
+				<otherUseCaseCell2>n/a</otherUseCaseCell2>
+			</otherUseCaseRow>
+		</otherUseCase>
+		<step id="Use Case – R3-ARCH-UC334-Image Processing (Fax)" type="normal">
+			<stepName>Step 1 (Swim Lane Box 1): Process Fax to PRISM via Kofax® </stepName>
+			<navigation>n/a</navigation>
+			<flow id="Use Case – R3-ARCH-UC334-Image Processing (Fax)" stepId="Step 1 (Swim Lane Box 1): Process Fax to PRISM via Kofax® ">
+					<flowHeaderRow>
+						<flowHeader0>Flow</flowHeader0>
+						<flowHeader1>Actor Does</flowHeader1>
+						<flowHeader2>Field Rules</flowHeader2>
+						<flowHeader3>System Does</flowHeader3>
+					</flowHeaderRow>
+					<flowRow>
+						<flowCell0 id="Flow">1</flowCell0>
+						<flowCell1 id="Actor Does">Initiates system process</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes R3-ARCH-ITP123-IMG- FAX_TO_PRISM_VIA_KOFAXUse case ends.</flowCell3>
+					</flowRow>
+			</flow>
+			<businessAreaRules id="Use Case – R3-ARCH-UC334-Image Processing (Fax)" stepName="Step 1 (Swim Lane Box 1): Process Fax to PRISM via Kofax® ">
+					<businessHeaderRow>
+						<businessHeader0>Business Rules</businessHeader0>
+						<businessHeader1>Business Error Displayed</businessHeader1>
+						<businessHeader2>Applied At</businessHeader2>
+					</businessHeaderRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br ARCH-15461-Imaging-Appendix M Requirements] Requirement 14.3.12.082, 14.3.12.085, 14.3.12.086, 14.3.12.101, 14.3.12.103, 14.3.12.123,  14.3.12.124, 14.3.12.125, 14.3.12.128, 14.3.12.129, 14.3.12.132, 14.3.12.133, 14.3.12.136,  14.3.12.138, 14.3.12.139, 14.3.12.140, 14.3.12.144, 14.3.12.145, 14.3.12.146, 14.3.12.147, 14.3.12.148, 14.3.12.149 are referenced in Appendix M.</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">n/a</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">n/a</businessAreaCell2>
+					</businessAreaRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br ARCH-15470-Imaging-Backup of Images] All images created through scanning and fax, will be saved as backup for the retention period of one month.</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">n/a</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">n/a</businessAreaCell2>
+					</businessAreaRow>
+			</businessAreaRules>
+			<dataAttributes>n/a</dataAttributes>
+		</step>
+	</useCase>
+	<useCase>
+		<useCaseName id="Use Case – R3-ARCH-UC335-Image Processing (Scanner)">Use Case – R3-ARCH-UC335-Image Processing (Scanner)		</useCaseName>
+		<actor id="Use Case – R3-ARCH-UC335-Image Processing (Scanner)">System (Kofax®)</actor>
+		<triggers id="Use Case – R3-ARCH-UC335-Image Processing (Scanner)">User starts the scan process from Kofax®  Scan Module</triggers>
+		<preConditons id="Use Case – R3-ARCH-UC335-Image Processing (Scanner)">Kofax® batch, document template, and form template must exist for the form to be processed.</preConditons>
+		<postConditons id="Use Case – R3-ARCH-UC335-Image Processing (Scanner)">User starts the scan process from Kofax®  Scan Module</postConditons>
+		<contstraints id="Use Case – R3-ARCH-UC335-Image Processing (Scanner)">User starts the scan process from Kofax®  Scan Module</contstraints>
+		<otherUseCase id="Use Case – R3-ARCH-UC335-Image Processing (Scanner)">
+			<otherUseCaseheaderRow>
+				<otherUseCaseheader0>Use Case Number/Name</otherUseCaseheader0>
+				<otherUseCaseheader1>DSD where this Use Case is Included</otherUseCaseheader1>
+				<otherUseCaseheader2>Purpose of Including the Use Case</otherUseCaseheader2>
+			</otherUseCaseheaderRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>n/a</otherUseCaseCell0>
+				<otherUseCaseCell1>n/a</otherUseCaseCell1>
+				<otherUseCaseCell2>n/a</otherUseCaseCell2>
+			</otherUseCaseRow>
+		</otherUseCase>
+		<step id="Use Case – R3-ARCH-UC335-Image Processing (Scanner)" type="normal">
+			<stepName>Step 1 (Swim Lane Box 1): Process Scanner to PRISM</stepName>
+			<navigation>n/a</navigation>
+			<flow id="Use Case – R3-ARCH-UC335-Image Processing (Scanner)" stepId="Step 1 (Swim Lane Box 1): Process Scanner to PRISM">
+					<flowHeaderRow>
+						<flowHeader0>Flow</flowHeader0>
+						<flowHeader1>Actor Does</flowHeader1>
+						<flowHeader2>Field Rules</flowHeader2>
+						<flowHeader3>System Does</flowHeader3>
+					</flowHeaderRow>
+					<flowRow>
+						<flowCell0 id="Flow">1</flowCell0>
+						<flowCell1 id="Actor Does">Initiate system process</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes R3-ARCH-ITP124-IMG- SCANNER_TO_PRISM_VIA_KOFAXUse case ends.</flowCell3>
+					</flowRow>
+			</flow>
+			<businessAreaRules id="Use Case – R3-ARCH-UC335-Image Processing (Scanner)" stepName="Step 1 (Swim Lane Box 1): Process Scanner to PRISM">
+					<businessHeaderRow>
+						<businessHeader0>Business Rules</businessHeader0>
+						<businessHeader1>Business Error Displayed</businessHeader1>
+						<businessHeader2>Applied At</businessHeader2>
+					</businessHeaderRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br ARCH-15461-Imaging-Appendix M Requirements] See [uc R3-ARCH-UC334-Image Processing (Fax)].</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">See [uc R3-ARCH-UC334-Image Processing (Fax)].</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">n/a</businessAreaCell2>
+					</businessAreaRow>
+			</businessAreaRules>
+			<dataAttributes>n/a</dataAttributes>
+		</step>
+	</useCase>
+	<useCase>
+		<useCaseName id="Use Case – R3-ARCH-UC336-Fill and Print ‘Provider Supporting Document Submission Cover Sheet’ ">Use Case – R3-ARCH-UC336-Fill and Print ‘Provider Supporting Document Submission Cover Sheet’ 		</useCaseName>
+		<actor id="Use Case – R3-ARCH-UC336-Fill and Print ‘Provider Supporting Document Submission Cover Sheet’ ">Provider</actor>
+		<triggers id="Use Case – R3-ARCH-UC336-Fill and Print ‘Provider Supporting Document Submission Cover Sheet’ ">Provider needs to completes and print cover sheet for sending supporting documents</triggers>
+		<preConditons id="Use Case – R3-ARCH-UC336-Fill and Print ‘Provider Supporting Document Submission Cover Sheet’ ">n/a</preConditons>
+		<postConditons id="Use Case – R3-ARCH-UC336-Fill and Print ‘Provider Supporting Document Submission Cover Sheet’ ">Provider needs to completes and print cover sheet for sending supporting documents</postConditons>
+		<contstraints id="Use Case – R3-ARCH-UC336-Fill and Print ‘Provider Supporting Document Submission Cover Sheet’ ">Provider needs to completes and print cover sheet for sending supporting documents</contstraints>
+		<otherUseCase id="Use Case – R3-ARCH-UC336-Fill and Print ‘Provider Supporting Document Submission Cover Sheet’ ">
+			<otherUseCaseheaderRow>
+				<otherUseCaseheader0>Use Case Number/Name</otherUseCaseheader0>
+				<otherUseCaseheader1>DSD where this Use Case is Included</otherUseCaseheader1>
+				<otherUseCaseheader2>Purpose of Including the Use Case</otherUseCaseheader2>
+			</otherUseCaseheaderRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>n/a</otherUseCaseCell0>
+				<otherUseCaseCell1>n/a</otherUseCaseCell1>
+				<otherUseCaseCell2>n/a</otherUseCaseCell2>
+			</otherUseCaseRow>
+		</otherUseCase>
+		<step id="Use Case – R3-ARCH-UC336-Fill and Print ‘Provider Supporting Document Submission Cover Sheet’ " type="normal">
+			<stepName>Step 1 (Swim Lane Box 1): Provider Completes and Prints Cover Sheet  </stepName>
+			<navigation>Provider navigates to website where the Cover Sheet is uploaded.Provider downloads and opens the PDF file.</navigation>
+			<flow id="Use Case – R3-ARCH-UC336-Fill and Print ‘Provider Supporting Document Submission Cover Sheet’ " stepId="Step 1 (Swim Lane Box 1): Provider Completes and Prints Cover Sheet  ">
+					<flowHeaderRow>
+						<flowHeader0>Flow</flowHeader0>
+						<flowHeader1>Actor Does</flowHeader1>
+						<flowHeader2>Field Rules</flowHeader2>
+						<flowHeader3>System Does</flowHeader3>
+					</flowHeaderRow>
+					<flowRow>
+						<flowCell0 id="Flow">1</flowCell0>
+						<flowCell1 id="Actor Does">Selects value from [lb Provider Identifier Type]</flowCell1>
+						<flowCell2 id="Field Rules">R</flowCell2>
+						<flowCell3 id="System Does">Displays value selected</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">2</flowCell0>
+						<flowCell1 id="Actor Does">Enters text in [fld ID Number]</flowCell1>
+						<flowCell2 id="Field Rules">R</flowCell2>
+						<flowCell3 id="System Does">Displays text entered</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">3</flowCell0>
+						<flowCell1 id="Actor Does">Selects value from [lb Document Type]</flowCell1>
+						<flowCell2 id="Field Rules">R</flowCell2>
+						<flowCell3 id="System Does">Displays value selected</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">4</flowCell0>
+						<flowCell1 id="Actor Does">Selects value from [lb Document Name]</flowCell1>
+						<flowCell2 id="Field Rules">R</flowCell2>
+						<flowCell3 id="System Does">Displays value selected</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">5</flowCell0>
+						<flowCell1 id="Actor Does">Enters text in [fld Contact Phone Number_1]</flowCell1>
+						<flowCell2 id="Field Rules">R</flowCell2>
+						<flowCell3 id="System Does">Displays text entered</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">6</flowCell0>
+						<flowCell1 id="Actor Does">Enters text in [fld Contact Phone Number_2]</flowCell1>
+						<flowCell2 id="Field Rules">R</flowCell2>
+						<flowCell3 id="System Does">Displays text entered</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">7</flowCell0>
+						<flowCell1 id="Actor Does">Enters text in [fld Contact Phone Number_3]</flowCell1>
+						<flowCell2 id="Field Rules">R</flowCell2>
+						<flowCell3 id="System Does">Displays text entered</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">8</flowCell0>
+						<flowCell1 id="Actor Does">Enters text in [fld Ext]</flowCell1>
+						<flowCell2 id="Field Rules">O</flowCell2>
+						<flowCell3 id="System Does">Displays text entered</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">9</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [btn Print Cover Sheet]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Validates Required FieldsPrints the Cover Sheet to the user’s default printer without bringing up the Print DialogUse case ends.</flowCell3>
+					</flowRow>
+			</flow>
+			<businessAreaRules id="Use Case – R3-ARCH-UC336-Fill and Print ‘Provider Supporting Document Submission Cover Sheet’ " stepName="Step 1 (Swim Lane Box 1): Provider Completes and Prints Cover Sheet  ">
+					<businessHeaderRow>
+						<businessHeader0>Business Rules</businessHeader0>
+						<businessHeader1>Business Error Displayed</businessHeader1>
+						<businessHeader2>Applied At</businessHeader2>
+					</businessHeaderRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br ARCH-15450-Imaging-Application ID Validation] Application ID Validation - based on Provider susbsytem br PRV-578</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">[be ARCH-15450-Imaging-Application ID Validation] Application ID Number must have 14 numeric digits and always starts with 20.</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">Step 1 Flow 2</businessAreaCell2>
+					</businessAreaRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br ARCH-15451-Imaging-NPI/API Validation] NPI/API Validation - based on Provider susbsytem br PRV-584</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">[be ARCH-15451-Imaging-NPI/API Validation] NPI/API Number must have 10 numeric digits.</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">Step 1 Flow 2</businessAreaCell2>
+					</businessAreaRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br ARCH-15452-Imaging-PRISM ID Validation] PRISM ID Validation - based on Provider susbsytem br PRV-579</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">[be ARCH-15452-Imaging-PRISM ID Validation] PRISM ID Number must have 7 numeric digits.</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">Step 1 Flow 2</businessAreaCell2>
+					</businessAreaRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br ARCH-15453-Imaging-Required field warning on PDF Form] Required field warning on PDF Form.</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">[be ARCH-15453-Imaging-Required field warning on PDF Form] All fields (except Ext) are required.</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">Step 1 Flow 1, Step 1 Flow 2, Step 1 Flow 3, Step 1 Flow 4, Step 1 Flow 5, Step 1 Flow 6, Step 1 Flow 7</businessAreaCell2>
+					</businessAreaRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br ARCH-15454-Imaging-Non Printing Section on PDF Form] The ‘INSTRUCTIONS’ section on the PDF form are displayed on the form but is not printed.</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">n/a</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">n/a</businessAreaCell2>
+					</businessAreaRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br ARCH-15462-Imaging-Document Type List Box Dynamic Update] The Document Name List Box is dynamically populated based upon the value selected for Document Type List Box. If no value is selected for Document Type, the Document Name field will only show ‘ ---select value—‘ as the list box choice</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">n/a</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">Step 1 Flow 3, Step 1 Flow 4</businessAreaCell2>
+					</businessAreaRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br ARCH-15464-Imaging-Bar Code] The Bar Code embedded in the form dynamically collects information from the document type and document fields the Provider fills and updates its value to the concatenated value of form number, document type and document name so that the form can be classified accurately. Example PE010101</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">n/a</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">n/a</businessAreaCell2>
+					</businessAreaRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br ARCH-15465-Imaging-Field value retention] If a required field value fails validation, entered field values will be retained after clearing error message.</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">n/a</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">Step 1 Flow 2, Step 1 Flow 5, Step 1 Flow 6, Step 1 Flow 7</businessAreaCell2>
+					</businessAreaRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br ARCH-15467-Imaging-Phone Number Validation] Validation for  phone number input should be in XXX XXX XXXX format.</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">[be ARCH-15467-Imaging-Phone Number Validation] Please enter a valid phone number (E.g. XXX XXX XXXX format).</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">Step 1 Flow 5, Step 1 Flow 6, Step 1 Flow 7</businessAreaCell2>
+					</businessAreaRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br ARCH-15466-Imaging-Ext field 11 digit] The Ext (Extension) field will be limited to user input of 11 digits.</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">n/a</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">Step 1 Flow 8</businessAreaCell2>
+					</businessAreaRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br ARCH-15468-Imaging-Phone Number and Ext numeric] The Adobe PDF form has inbuilt programming so the phone number and extension fields will only allow the user to enter numeric values and no other type of input will be accepted.</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">n/a</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">Step 1 Flow 5, Step 1 Flow 6, Step 1 Flow 7, Step 1 Flow 8</businessAreaCell2>
+					</businessAreaRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br ARCH-15469-Imaging-Save PDF with entered data] The Adobe Reader application Save button/command can be used to save this Cover Sheet with the entered values on the User’s system.</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">n/a</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">n/a</businessAreaCell2>
+					</businessAreaRow>
+			</businessAreaRules>
+			<dataAttributes id="Use Case – R3-ARCH-UC336-Fill and Print ‘Provider Supporting Document Submission Cover Sheet’ " stepName="Step 1 (Swim Lane Box 1): Provider Completes and Prints Cover Sheet  ">
+					<dataAttributesHeaderRow>
+						<dataAttributesHeader0>Field Name</dataAttributesHeader0>
+						<dataAttributesHeader1>Required (R, CR, O, n/a)</dataAttributesHeader1>
+						<dataAttributesHeader2>Field Type</dataAttributesHeader2>
+						<dataAttributesHeader3>Field Value</dataAttributesHeader3>
+						<dataAttributesHeader4>Page Control Name</dataAttributesHeader4>
+						<dataAttributesHeader5>Table Name</dataAttributesHeader5>
+						<dataAttributesHeader6>Column Name</dataAttributesHeader6>
+						<dataAttributesHeader7>Data Type</dataAttributesHeader7>
+						<dataAttributesHeader8>Default Value</dataAttributesHeader8>
+					</dataAttributesHeaderRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Barcode</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Graphic</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">Code 128</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">PE01</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Provider Identifier Type</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">R</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">List Box</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">{Application ID (14 Digits), NPI/API (10 Digits), PRISM ID (7 Digits)}</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">Varchar(30)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">-----select a value------</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">ID Number</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">R</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Text Field</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">Number(14)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">Blank</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Document Type</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">R</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">List Box</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">{See R3-IMG-PE-01_Provider_Enrollment_Supporting_Document_CS Exhibit}</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">Varchar(30)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">-----select a value------</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Document Name</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">R</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">List Box</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">{See R3-IMG-PE-01_Provider_Enrollment_Supporting_Document_CS Exhibit}{See [br ARCH-15462-Imaging-Document Type List Box Dynamic Update]}</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">Varchar(255)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">-----select a value------</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Contact Name</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">R</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Text Field</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">Varchar(35)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">Blank</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Contact Phone Number_1</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">R</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Text Field</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">Number(3)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">Blank</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Contact Phone Number_2</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">R</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Text Field</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">Number(3)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">Blank</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Contact Phone Number_3</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">R</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Text Field</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">Number(4)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">Blank</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Ext</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">O</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Text Field</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">Number(11)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">Blank</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Print Cover Sheet</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Button</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Clear Fields</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Button</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+			</dataAttributes>
+		</step>
+		<step type="alternate">
+			<alternateFlowName>Alternate Flow 1 </alternateFlowName>
+			<alternateFlow>
+					<dataAttributesHeaderRow>
+						<dataAttributesHeader0>Flow</dataAttributesHeader0>
+						<dataAttributesHeader1>Actor Does</dataAttributesHeader1>
+						<dataAttributesHeader2>Field Rules</dataAttributesHeader2>
+						<dataAttributesHeader3>System Does</dataAttributesHeader3>
+					</dataAttributesHeaderRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Flow">1</dataAttributesCell0>
+						<dataAttributesCell1 id="Actor Does">Clicks [btn Clear Fields]</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Rules">n/a</dataAttributesCell2>
+						<dataAttributesCell3 id="System Does">Clears the value entered in all text fields and sets them to default valueClears the value selected in all list boxes and sets them to default valueUse case ends.</dataAttributesCell3>
+					</dataAttributesRow>
+			</alternateFlow>
+			<alternateBusinessFlow>
+					<alternateBusinessAreaFlowHeaderRow>
+						<alternateBusinessAreaFlowHeader0>Business Rules</alternateBusinessAreaFlowHeader0>
+						<alternateBusinessAreaFlowHeader1>Business Error Displayed</alternateBusinessAreaFlowHeader1>
+						<alternateBusinessAreaFlowHeader2>Applied At</alternateBusinessAreaFlowHeader2>
+					</alternateBusinessAreaFlowHeaderRow>
+					<alternateBusinessAreaRow>
+						<alternateBusinessAreaCell0 id="Business Rules">[br ARCH-15461-Imaging-Appendix M Requirements] See [uc R3-ARCH-UC334-Image Processing (Fax)].</alternateBusinessAreaCell0>
+						<alternateBusinessAreaCell1 id="Business Error Displayed">See [uc R3-ARCH-UC334-Image Processing (Fax)].</alternateBusinessAreaCell1>
+						<alternateBusinessAreaCell2 id="Applied At">n/a</alternateBusinessAreaCell2>
+					</alternateBusinessAreaRow>
+			</alternateBusinessFlow>
+			<alternateDataAttributes>Data attributes are defined in [uc R3-ARCH-UC336-Fill and Print ‘Provider Supporting Document Submission Cover Sheet’]</alternateDataAttributes>
+		</step>
+	</useCase>
+	<useCase>
+		<useCaseName id="Use Case – R3-ARCH-UC337-Validation ‘Provider Supporting Document Submission Cover Sheet’">Use Case – R3-ARCH-UC337-Validation ‘Provider Supporting Document Submission Cover Sheet’		</useCaseName>
+		<actor id="Use Case – R3-ARCH-UC337-Validation ‘Provider Supporting Document Submission Cover Sheet’">DOH User</actor>
+		<triggers id="Use Case – R3-ARCH-UC337-Validation ‘Provider Supporting Document Submission Cover Sheet’">User opens Kofax® Validation Module to validate the documents scanned</triggers>
+		<preConditons id="Use Case – R3-ARCH-UC337-Validation ‘Provider Supporting Document Submission Cover Sheet’">Kofax® recognition module has executed and the form field value has not met the threshold criteriaORKofax® recognition module has executed and the form fields values are not matching database values</preConditons>
+		<postConditons id="Use Case – R3-ARCH-UC337-Validation ‘Provider Supporting Document Submission Cover Sheet’">User opens Kofax® Validation Module to validate the documents scanned</postConditons>
+		<contstraints id="Use Case – R3-ARCH-UC337-Validation ‘Provider Supporting Document Submission Cover Sheet’">User opens Kofax® Validation Module to validate the documents scanned</contstraints>
+		<otherUseCase id="Use Case – R3-ARCH-UC337-Validation ‘Provider Supporting Document Submission Cover Sheet’">
+			<otherUseCaseheaderRow>
+				<otherUseCaseheader0>Use Case Number/Name</otherUseCaseheader0>
+				<otherUseCaseheader1>DSD where this Use Case is Included</otherUseCaseheader1>
+				<otherUseCaseheader2>Purpose of Including the Use Case</otherUseCaseheader2>
+			</otherUseCaseheaderRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>n/a</otherUseCaseCell0>
+				<otherUseCaseCell1>n/a</otherUseCaseCell1>
+				<otherUseCaseCell2>n/a</otherUseCaseCell2>
+			</otherUseCaseRow>
+		</otherUseCase>
+		<step id="Use Case – R3-ARCH-UC337-Validation ‘Provider Supporting Document Submission Cover Sheet’" type="normal">
+			<stepName>Step 1 (Swim Lane Box 1): Validation ‘Provider Supporting Document Submission Cover Sheet’ </stepName>
+			<navigation>User opens the Kofax® Validation Module and selects the batch to open </navigation>
+			<flow id="Use Case – R3-ARCH-UC337-Validation ‘Provider Supporting Document Submission Cover Sheet’" stepId="Step 1 (Swim Lane Box 1): Validation ‘Provider Supporting Document Submission Cover Sheet’ ">
+					<flowHeaderRow>
+						<flowHeader0>Flow</flowHeader0>
+						<flowHeader1>Actor Does</flowHeader1>
+						<flowHeader2>Field Rules</flowHeader2>
+						<flowHeader3>System Does</flowHeader3>
+					</flowHeaderRow>
+					<flowRow>
+						<flowCell0 id="Flow">1</flowCell0>
+						<flowCell1 id="Actor Does">Enters text in [fld Form Type ID]</flowCell1>
+						<flowCell2 id="Field Rules">R</flowCell2>
+						<flowCell3 id="System Does">Displays text entered</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">2</flowCell0>
+						<flowCell1 id="Actor Does">Selects value from [lb Provider Identifier Type]</flowCell1>
+						<flowCell2 id="Field Rules">R</flowCell2>
+						<flowCell3 id="System Does">Displays value selected</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">3</flowCell0>
+						<flowCell1 id="Actor Does">Enters text in [fld ID Number]</flowCell1>
+						<flowCell2 id="Field Rules">R</flowCell2>
+						<flowCell3 id="System Does">Displays text entered</flowCell3>
+					</flowRow>
+					<flowRow>
+						<flowCell0 id="Flow">4</flowCell0>
+						<flowCell1 id="Actor Does">Clicks [btn Save]</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Saves the entered and validated data in the Kofax® Validation Module to be picked up by the Kofax® Export ModuleOpens next document in the Batch for validation, if they existShows the dialog box to select another pending Batch, if the entire set of documents within current batch are processedUse case ends.</flowCell3>
+					</flowRow>
+			</flow>
+			<businessAreaRules id="Use Case – R3-ARCH-UC337-Validation ‘Provider Supporting Document Submission Cover Sheet’" stepName="Step 1 (Swim Lane Box 1): Validation ‘Provider Supporting Document Submission Cover Sheet’ ">
+					<businessHeaderRow>
+						<businessHeader0>Business Rules</businessHeader0>
+						<businessHeader1>Business Error Displayed</businessHeader1>
+						<businessHeader2>Applied At</businessHeader2>
+					</businessHeaderRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br ARCH-15464-Imaging-Bar Code] - See [uc R3-ARCH-UC336-Fill and Print Provider Supporting Document Submission Cover Sheet’].</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">See [uc R3-ARCH-UC336-Fill and Print ‘Provider Supporting Document Submission Cover Sheet’]</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">n/a</businessAreaCell2>
+					</businessAreaRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br ARCH-15461-Imaging-Appendix M Requirements] - See [uc R3-ARCH-UC334-Image Processing (Fax)] .</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">See [uc R3-ARCH-UC334-Image Processing (Fax)].</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">n/a</businessAreaCell2>
+					</businessAreaRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">[br ARCH-15471-Imaging-Field Validation] The validation fields will be auto populated as read by Kofax. When User presses Tab or Enter or Mouse Clicks in next field,  Kofax will not let User change focus to next field unless the validation is complete for current field.The validated data can only be saved if ALL the fields are validated. Invalid field values will generate Kofax warning.</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">n/a</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">Step 1 Flow 1, Step 1 Flow 2, Step 1 Flow 3</businessAreaCell2>
+					</businessAreaRow>
+			</businessAreaRules>
+			<dataAttributes id="Use Case – R3-ARCH-UC337-Validation ‘Provider Supporting Document Submission Cover Sheet’" stepName="Step 1 (Swim Lane Box 1): Validation ‘Provider Supporting Document Submission Cover Sheet’ ">
+					<dataAttributesHeaderRow>
+						<dataAttributesHeader0>Field Name</dataAttributesHeader0>
+						<dataAttributesHeader1>Required (R, CR, O, n/a)</dataAttributesHeader1>
+						<dataAttributesHeader2>Field Type</dataAttributesHeader2>
+						<dataAttributesHeader3>Field Value</dataAttributesHeader3>
+						<dataAttributesHeader4>Page Control Name</dataAttributesHeader4>
+						<dataAttributesHeader5>Table Name</dataAttributesHeader5>
+						<dataAttributesHeader6>Column Name</dataAttributesHeader6>
+						<dataAttributesHeader7>Data Type</dataAttributesHeader7>
+						<dataAttributesHeader8>Default Value</dataAttributesHeader8>
+					</dataAttributesHeaderRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Save</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Button</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">n/a</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Form Type ID *</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">R</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Text Field</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">Varchar(10)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">System Populated</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Provider Identifier Type *</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">R</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">List Box</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">[Application ID (14 Digits), NPI/API (10 Digits), PRISM ID (7 Digits)]</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">Varchar(30)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">System Populated</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">ID Number *</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">R</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Text Field</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">Number(14)</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">System Populated</dataAttributesCell8>
+					</dataAttributesRow>
+					<dataAttributesRow>
+						<dataAttributesCell0 id="Field Name">Cover Sheet Image</dataAttributesCell0>
+						<dataAttributesCell1 id="Required (R, CR, O, n/a)">n/a</dataAttributesCell1>
+						<dataAttributesCell2 id="Field Type">Image</dataAttributesCell2>
+						<dataAttributesCell3 id="Field Value">n/a</dataAttributesCell3>
+						<dataAttributesCell4 id="Page Control Name">n/a</dataAttributesCell4>
+						<dataAttributesCell5 id="Table Name">n/a</dataAttributesCell5>
+						<dataAttributesCell6 id="Column Name">n/a</dataAttributesCell6>
+						<dataAttributesCell7 id="Data Type">n/a</dataAttributesCell7>
+						<dataAttributesCell8 id="Default Value">System Populated</dataAttributesCell8>
+					</dataAttributesRow>
+			</dataAttributes>
+		</step>
+	</useCase>
+	<useCase>
+		<useCaseName id="Use Case – R3-ARCH-UC338-Ingest Kofax® Documents">Use Case – R3-ARCH-UC338-Ingest Kofax® Documents		</useCaseName>
+		<actor id="Use Case – R3-ARCH-UC338-Ingest Kofax® Documents">System</actor>
+		<triggers id="Use Case – R3-ARCH-UC338-Ingest Kofax® Documents">PRISM Imaging job triggers to process Kofax® documents</triggers>
+		<preConditons id="Use Case – R3-ARCH-UC338-Ingest Kofax® Documents">[uc R3-ARCH-UC334-Image Processing (Fax)] has executedOR[uc R3-ARCH-UC335-Image Processing (Scanner)] has executed</preConditons>
+		<postConditons id="Use Case – R3-ARCH-UC338-Ingest Kofax® Documents">PRISM Imaging job triggers to process Kofax® documents</postConditons>
+		<contstraints id="Use Case – R3-ARCH-UC338-Ingest Kofax® Documents">PRISM Imaging job triggers to process Kofax® documents</contstraints>
+		<otherUseCase id="Use Case – R3-ARCH-UC338-Ingest Kofax® Documents">
+			<otherUseCaseheaderRow>
+				<otherUseCaseheader0>Use Case Number/Name</otherUseCaseheader0>
+				<otherUseCaseheader1>DSD where this Use Case is Included</otherUseCaseheader1>
+				<otherUseCaseheader2>Purpose of Including the Use Case</otherUseCaseheader2>
+			</otherUseCaseheaderRow>
+			<otherUseCaseRow>
+				<otherUseCaseCell0>n/a</otherUseCaseCell0>
+				<otherUseCaseCell1>n/a</otherUseCaseCell1>
+				<otherUseCaseCell2>n/a</otherUseCaseCell2>
+			</otherUseCaseRow>
+		</otherUseCase>
+		<step id="Use Case – R3-ARCH-UC338-Ingest Kofax® Documents" type="normal">
+			<stepName>Step 1 (Swim Lane Box 1): Ingest Kofax®  Documents </stepName>
+			<navigation>n/a </navigation>
+			<flow id="Use Case – R3-ARCH-UC338-Ingest Kofax® Documents" stepId="Step 1 (Swim Lane Box 1): Ingest Kofax®  Documents ">
+					<flowHeaderRow>
+						<flowHeader0>Flow</flowHeader0>
+						<flowHeader1>Actor Does</flowHeader1>
+						<flowHeader2>Field Rules</flowHeader2>
+						<flowHeader3>System Does</flowHeader3>
+					</flowHeaderRow>
+					<flowRow>
+						<flowCell0 id="Flow">1</flowCell0>
+						<flowCell1 id="Actor Does">Initiates system process</flowCell1>
+						<flowCell2 id="Field Rules">n/a</flowCell2>
+						<flowCell3 id="System Does">Invokes R3-ARCH-ITP127-HDB-INGEST_KOFAX_SCANNED_FAXED_DOCS_IN_PRISMUse case ends.</flowCell3>
+					</flowRow>
+			</flow>
+			<businessAreaRules id="Use Case – R3-ARCH-UC338-Ingest Kofax® Documents" stepName="Step 1 (Swim Lane Box 1): Ingest Kofax®  Documents ">
+					<businessHeaderRow>
+						<businessHeader0>Business Rules</businessHeader0>
+						<businessHeader1>Business Error Displayed</businessHeader1>
+						<businessHeader2>Applied At</businessHeader2>
+					</businessHeaderRow>
+					<businessAreaRow>
+						<businessAreaCell0 id="Business Rules">n/a</businessAreaCell0>
+						<businessAreaCell1 id="Business Error Displayed">n/a</businessAreaCell1>
+						<businessAreaCell2 id="Applied At">n/a</businessAreaCell2>
+					</businessAreaRow>
+			</businessAreaRules>
+			<dataAttributes>n/a</dataAttributes>
+		</step>
+	</useCase>
+</uttmisDoc>
